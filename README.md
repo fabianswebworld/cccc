@@ -16,9 +16,9 @@ Die version mit Gong erzeugt über einen am BEEP-Port (Pins 1 und 11 an der ober
 
 Diese Version des Programms belegt natürlich mehr Platz im seriellen EEPROM der C-Control (ca. 1490 Bytes) als die Version ohne Gong. Wer also das Schlagwerk nicht braucht und auf dem CCCC-Programm aufbauend noch weitere, eigene Ideen realisieren will, die viel Platz benötigen, ist wahrscheinlich mit Version 1.5 (ohne Gong) am besten bedient, in der das Schlagwerk wieder entfernt wurde.
 
-Die älteren Versionen 1.0 bis 1.3 (also auch die hier zu findende Version mit Gong) empfehle ich **nicht** mehr für den täglichen Einsatz, da diese den Zeigerstand nach jeder Minute abspeichern, was mir im Nachhinein als nicht sonderlich EEPROM-schonend erschien.
+Die älteren Versionen 1.0 bis 1.3 (also auch die hier zu findende Version 1.3d mit Gong) empfehle ich **nicht** mehr für den täglichen Einsatz, da diese den Zeigerstand nach jeder Minute abspeichern, was mir im Nachhinein als nicht sonderlich EEPROM-schonend erschien.
 
-**Empfohlen wird also die Version 1.5 ohne Gong.**
+**Empfohlen wird also die Version 1.5d ohne Gong.**
 
 ## Bedienung
 
