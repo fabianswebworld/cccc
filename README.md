@@ -18,7 +18,7 @@ Diese Version des Programms belegt natürlich mehr Platz im seriellen EEPROM der
 
 Die älteren Versionen 1.0 bis 1.3 (also auch die hier zu findende Version mit Gong) empfehle ich **nicht** mehr für den täglichen Einsatz, da diese den Zeigerstand nach jeder Minute abspeichern, was mir im Nachhinein als nicht sonderlich EEPROM-schonend erschien.
 
-Empfohlen wird also die Version 1.5 ohne Gong.
+**Empfohlen wird also die Version 1.5 ohne Gong.**
 
 ## Bedienung
 
@@ -28,4 +28,4 @@ Jetzt einfach warten, bis sich die Uhr auf das DCF-Signal synchronisiert und nac
 
 - Bei Version 1.3 (mit Gong und minütlicher Speicherung des Zeigerstandes): Nach einem Stromausfall die Uhr **nicht** manuell weiterstellen! Nach ca. 10 Minuten der DCF-Synchronisation stellt das Programm automatisch die Uhr nach.
 
-- Bei Versionen ab 1.4 (ohne Gong): Nach Stromausfall geht die Uhr davon aus, **dass sie bei 12:00 steht**, wenn nicht vorher per Druck auf den Stelltaster (port[16]) die Position gesichert wurde (z.B. bei kontrolliertem Trennen der Spannung). Will man verhindern, dass in einem solchen Falle die Uhr beginnt, von der (unbekannten) Position "alias 12:00" aus loszustellen, muss nach der DCF-Synchronisierung, während ein Ton (3 Sekunden) ertönt, der Taster an port[11] gedrückt werden. Es wird dann einfach nicht nachgestellt und die Uhr läuft von der aktuellen Position aus normal los. Zur Bestätigung ertönt kurz ein tiefer Ton.
+- Bei Version 1.5 (ohne Gong): Nach Stromausfall geht die Uhr davon aus, **dass sie bei 12:00 steht**, wenn nicht vorher per Druck auf den Stelltaster (port[16]) die Position gesichert wurde (z.B. bei kontrolliertem Trennen der Spannung). Will man verhindern, dass in einem solchen Falle die Uhr beginnt, von der (unbekannten) Position "alias 12:00" aus loszustellen, muss nach der DCF-Synchronisierung, während ein Ton (3 Sekunden) ertönt, der Taster an port[11] gedrückt werden. Es wird dann einfach nicht nachgestellt und die Uhr läuft von der aktuellen Position aus normal los. Zur Bestätigung ertönt kurz ein tiefer Ton.
