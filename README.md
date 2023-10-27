@@ -1,4 +1,4 @@
-# C-Control Clockwork Commander: Nebenuhrsteuerung mit der Conrad C-Control.
+# C-Control Clockwork Commander: Nebenuhrsteuerung mit der Conrad C-Control
 
 Im folgenden stelle ich den Quellcode meiner Nebenuhrsteuerung für die Conrad C-Control I (Classic) kostenlos zur Verfügung. Er läuft natürlich *nur* auf der C-Control I (CCBASIC). Die Funktionsweise des Programms ist ausführlich im Code dokumentiert. 
 
