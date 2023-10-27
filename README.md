@@ -10,15 +10,15 @@ Die Relais müssen so angeschlossen werden, dass das Relais an port[7] eine posi
 
 ## Code
 
-Der hier hochgeladene Quellcode liegt in zwei Versionen vor: mit Gong und ohne Gong.
+Der hier hochgeladene Quellcode liegt in zwei Versionen vor: mit Gong (Version 1.3d) und ohne Gong (Version 1.5d).
 
-Die version mit Gong erzeugt über einen am BEEP-Port (Pins 1 und 11 an der oberen Steckerleiste des Starterboards) angeschlossenen Piezo-Piepser zu jeder vollen, halben, Viertel- und Dreiviertelstunde einen Big Ben-ähnlichen Gong, der natürlich jeweils eine unterschiedliche Melodiekombination und -länge aufweist. Zu jeder vollen Stunde "schlägt" die Uhr danach eine der aktuellen Stunde entsprechende Anzahl an Schlägen. Über Jumper zwischen Port 9 bzw. Port 10 kann das Schlagwerk konfiguriert werden (Nachtabschaltung, immer aus, immer an). Nähreres dazu steht am Beginn des Quellcodes.
+Die Version mit Gong erzeugt über einen am BEEP-Port (Pins 1 und 11 an der oberen Steckerleiste des Starterboards) angeschlossenen Piezo-Piepser zu jeder vollen, halben, Viertel- und Dreiviertelstunde einen Big Ben-ähnlichen Gong, der natürlich jeweils eine unterschiedliche Melodiekombination und -länge aufweist. Zu jeder vollen Stunde "schlägt" die Uhr danach eine der aktuellen Stunde entsprechende Anzahl an Schlägen. Über Jumper zwischen Port 9 bzw. Port 10 kann das Schlagwerk konfiguriert werden (Nachtabschaltung, immer aus, immer an). Nähreres dazu steht am Beginn des Quellcodes.
 
 Diese Version des Programms belegt natürlich mehr Platz im seriellen EEPROM der C-Control (ca. 1490 Bytes) als die Version ohne Gong. Wer also das Schlagwerk nicht braucht und auf dem CCCC-Programm aufbauend noch weitere, eigene Ideen realisieren will, die viel Platz benötigen, ist wahrscheinlich mit Version 1.5 (ohne Gong) am besten bedient, in der das Schlagwerk wieder entfernt wurde.
 
-Die älteren Versionen 1.0 bis 1.3 (also auch die hier zu findende Version 1.3d mit Gong) empfehle ich **nicht** mehr für den täglichen Einsatz, da diese den Zeigerstand nach jeder Minute abspeichern, was mir im Nachhinein als nicht sonderlich EEPROM-schonend erschien.
+**Wichtig:** Die älteren Versionen 1.0 bis 1.3 (also auch die hier zu findende Version 1.3d mit Gong) empfehle ich **nicht** mehr für den täglichen Einsatz, da diese den Zeigerstand nach jeder Minute abspeichern, was mir im Nachhinein als nicht sonderlich EEPROM-schonend erschien.
 
-**Empfohlen wird also die Version 1.5d ohne Gong.**
+**Empfohlen wird also die Version 1.5d ohne Gong.** (Für eine Hauptuhr, die ja räumlich von den Nebenuhren getrennt ist, ist der Sinn einer Soundausgabe ohnehin fraglich.)
 
 ## Bedienung
 
